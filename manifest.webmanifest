@@ -1,0 +1,23 @@
+{
+  "name": "کافینو | CAFINO — سامانه مدیریت هوشمند کافی‌نت",
+  "short_name": "کافینو",
+  "description": "کافینو (CAFE + FINANCE + INFO): سامانه مدیریت هوشمند کافی‌نت — فروش، صندوق، فاکتور، حسابداری و مشتریان",
+  "lang": "fa",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "صندوق فروش", "short_name": "صندوق", "url": "./index.html", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
