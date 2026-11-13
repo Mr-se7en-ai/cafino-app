@@ -1,5 +1,5 @@
 /* Service Worker — کافینو | CAFINO */
-const VERSION = "1.77.0";
+const VERSION = "1.78.0";
 const CACHE = "cafenet-" + VERSION;
 const warn = (err) => console.warn("[sw] ذخیره در کش ناموفق:", err && err.message);   // معمولاً سهمیهٔ حافظه؛ برنامه بدون کش ادامه می‌دهد
 /*CHUNKS*/ const CHUNKS = ["./chunks/vendor-xlsx.0a32a8d8.js", "./chunks/vendor-xlsxworker.0c9db4b7.js", "./chunks/vendor-pdf.304e5742.js", "./chunks/vendor-pdfinfo.5a1b8a17.js", "./chunks/vendor-pdftools.d363328b.js", "./chunks/vendor-pdfjs.2058e957.js", "./chunks/vendor-pdfjsworker.ca5262e3.js"];

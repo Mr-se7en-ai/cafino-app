@@ -4,9 +4,12 @@
                    اگر برنامه و API پشت یک دامنه‌اند (docker-compose همین بسته): "same-origin"
    cafeId          شناسهٔ کافی‌نت روی سرور (اختیاری)
 
+   allowLocalAccounts  true = ثبت‌نام و ورود محلی بدون سرور مجاز است (مثلاً نسخهٔ آنلاین روی GitHub Pages یا یک رایانهٔ تک‌کاربره).
+                   پیش‌فرض false است: هویت باید از سرور بیاید. حساب محلی فقط روی همان مرورگر ذخیره می‌شود و همگام نمی‌شود.
+
    اعلان وقتی برنامه بسته است (Web Push) — فقط با راه‌اندازی «سرویس اعلان» (پوشهٔ push-server) کار می‌کند:
    pushUrl         نشانی سرویس اعلان، مثلاً "https://push.example.com" (اگر خالی باشد از apiBaseUrl استفاده می‌شود)
    vapidPublicKey  کلید عمومی که سرویس اعلان هنگام اجرا چاپ می‌کند
    pushKey         کلید مشترک (اختیاری؛ باید با PUSH_SHARED_KEY سرویس یکی باشد)
    اگر pushUrl و apiBaseUrl هر دو خالی باشند، دکمهٔ اعلان پس‌زمینه فعال نمی‌شود و یادآورها فقط وقتی برنامه باز است هشدار می‌دهند. */
-window.CAFINO_CONFIG = { apiBaseUrl: "", cafeId: "", pushUrl: "", vapidPublicKey: "", pushKey: "" };
+window.CAFINO_CONFIG = { apiBaseUrl: "", allowLocalAccounts: true, cafeId: "", pushUrl: "", vapidPublicKey: "", pushKey: "" };
