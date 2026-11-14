@@ -1,0 +1,18 @@
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-uJc/1ZwtJGd9NFaH2e4K7NfHlC/nE4JG5HgY/fye/wk=' 'sha256-RLgJxi0L6bn25ij+8a5Op0+cBmjPYIZKsgDm94luOLo='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), geolocation=(), payment=()
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/config.js
+  Cache-Control: no-cache
+/bundle.js
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
+/chunks/*
+  Cache-Control: public, max-age=31536000, immutable

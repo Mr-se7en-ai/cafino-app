@@ -1,0 +1,4 @@
+# خروجی ازپیش‌ساخته (npm run site) — بدون مرحلهٔ build؛ فقط انتشار.
+[build]
+  publish = "."
+  command = "echo prebuilt"
